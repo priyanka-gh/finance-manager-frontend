@@ -1,0 +1,41 @@
+.NavBarItems {
+    background-color: #272643;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar__logo {
+    color: white;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav__menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    padding-top: 0.5rem;
+    justify-content: end;
+}
+
+.navLink > a {
+    color: rgb(177, 175, 175);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navLink > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navlink__active {
+    color: white;
+}

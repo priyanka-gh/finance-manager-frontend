@@ -1,0 +1,67 @@
+.expense {
+    background-color: #fefefe;
+    font-family: 'Ubuntu', sans-serif;
+    height: 90vh;
+    width: 100vw;
+}
+
+.expense__top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.expense__title {
+    color: #272643;
+    font-size: 40px;
+    font-weight: 600;
+    justify-self: start;
+}
+
+.expense_add {
+    position: absolute;
+    right: 3rem;
+}
+
+.btn__add {
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 5rem;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.form__group > label {
+    padding-left: 2rem;
+}
+
+.form__group > input {
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: #e3f6f5;
+    padding: 0.5rem 1rem;
+    margin: 0 1.5rem;
+}
+
+.form__addBtn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.form__addBtn > button {
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    width: 80%;
+    margin-top: 1rem;
+    background-color: green;
+    padding: 0.5rem 1rem;
+    color: white;
+}
